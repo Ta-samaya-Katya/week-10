@@ -1,0 +1,40 @@
+#elem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#elem-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+#elem-img {
+  max-width: 200px;
+  height: 300px;
+  margin-bottom: 2%;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.button {
+  height: 10%;
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  background-color: #3ea7a0;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #c7cccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
